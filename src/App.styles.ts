@@ -8,6 +8,7 @@ export const Box = styled(Paper)`
 `;
 export const Header = styled.div`
   display:inline-flex;
+  flex-wrap: wrap;
   gap: 15px;
   width:100%;
 `;
@@ -17,8 +18,7 @@ export const CardBox = styled(Paper)`
   flex-direction: column;
   gap: 15px;
   height: auto;
-  padding: 15px;
   margin: 10px;
+  min-width:200px;
   padding: 20px;
-  wi
 `;
