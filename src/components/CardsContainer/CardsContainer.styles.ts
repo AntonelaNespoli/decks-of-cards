@@ -6,6 +6,7 @@ export const Container = styled(Box)`
   flex-direction: column;
   text-alignt: center;
   gap: 15px;
+  width: 100%;
 `;
 export const CardsBox = styled.div`
   display: flex;

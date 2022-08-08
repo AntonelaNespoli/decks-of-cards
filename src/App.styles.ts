@@ -6,8 +6,19 @@ export const Box = styled(Paper)`
   margin: 10px;
   padding: 20px;
 `;
-export const Header = styled(Box)`
+export const Header = styled.div`
+  display:inline-flex;
+  gap: 15px;
+  width:100%;
+`;
+export const CardBox = styled(Paper)`
   align-items: center;
+  display: flex;
   flex-direction: column;
   gap: 15px;
+  height: auto;
+  padding: 15px;
+  margin: 10px;
+  padding: 20px;
+  wi
 `;
